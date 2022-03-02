@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T08:54:44.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" version="16.1.2" etag="8Y505aGT2UrsdGAEYNcK" type="github"><diagram id="FSzsVu_iJ54fo4vCieVS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-02T08:50:35.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36" etag="HBVFhRQfuZAJhzD6iEAd" version="16.6.3" type="github">
+  <diagram id="FSzsVu_iJ54fo4vCieVS" name="第 1 页">
+    <mxGraphModel dx="887" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XYwqsoum5JD6X9Xr3KGo-1" target="XYwqsoum5JD6X9Xr3KGo-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XYwqsoum5JD6X9Xr3KGo-2" target="XYwqsoum5JD6X9Xr3KGo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-2" value="华北电力大学学科竞赛校内比赛组织审批表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XYwqsoum5JD6X9Xr3KGo-8" target="XYwqsoum5JD6X9Xr3KGo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-8" value="所在院系主管领导审核" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="270" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XYwqsoum5JD6X9Xr3KGo-10" target="XYwqsoum5JD6X9Xr3KGo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-10" value="工程训练与创新创业教育中心领导审核" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XYwqsoum5JD6X9Xr3KGo-12" value="通知发布" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="410" width="240" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

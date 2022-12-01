@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T11:55:14.381Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="JezbVTlx3Sok7jgodj3q" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T11:55:52.952Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="nQaCvvhz-ResMCT6j--m" type="github">
   <diagram id="k6xAOYBqpZFJXuhrr6dg" name="第 1 页">
     <mxGraphModel dx="1191" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="op4WVf0ANxCzOF1L6OUz-70" value="" style="swimlane;startSize=0;fontSize=19;" vertex="1" parent="op4WVf0ANxCzOF1L6OUz-5">
           <mxGeometry x="20" y="100" width="120" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="op4WVf0ANxCzOF1L6OUz-72" value="订单同步" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="op4WVf0ANxCzOF1L6OUz-70">
+        <mxCell id="op4WVf0ANxCzOF1L6OUz-72" value="订单同步（创建，终止等）" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="op4WVf0ANxCzOF1L6OUz-70">
           <mxGeometry x="15" y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="op4WVf0ANxCzOF1L6OUz-73" value="列表查询" style="whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="op4WVf0ANxCzOF1L6OUz-70">

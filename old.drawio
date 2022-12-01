@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T11:57:03.123Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="4jzHVv1MJ_n1j063qSR5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-01T11:57:54.582Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="qFq4yXXRuqZs977YWA8O" type="github">
   <diagram id="k6xAOYBqpZFJXuhrr6dg" name="第 1 页">
     <mxGraphModel dx="1191" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -213,14 +213,10 @@
         <mxCell id="op4WVf0ANxCzOF1L6OUz-64" value="消息通信kafka" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="240" y="500" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="op4WVf0ANxCzOF1L6OUz-71" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=19;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.012;entryY=0.864;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="op4WVf0ANxCzOF1L6OUz-64" target="op4WVf0ANxCzOF1L6OUz-5">
+        <mxCell id="op4WVf0ANxCzOF1L6OUz-71" value="" style="endArrow=classic;html=1;rounded=0;fontSize=19;exitX=0.96;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.002;entryY=0.866;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="op4WVf0ANxCzOF1L6OUz-64" target="op4WVf0ANxCzOF1L6OUz-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="610" y="640" as="sourcePoint" />
             <mxPoint x="660" y="590" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="305" y="600" />
-              <mxPoint x="410" y="590" />
-            </Array>
           </mxGeometry>
         </mxCell>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T03:48:31.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="ABpsDM0kB0k0k5zToSzt" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T07:45:02.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="uty0RteMEyXByKbdhxAj" type="github">
   <diagram id="KecFklK4j0eWl7QnXn8D" name="第 1 页">
     <mxGraphModel dx="893" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,24 @@
         </mxCell>
         <mxCell id="OfO5TF3sxZFxJK7zBCTe-25" value="监控告警" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
           <mxGeometry width="30" height="625.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OfO5TF3sxZFxJK7zBCTe-105" value="接口请求频次" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
+          <mxGeometry x="70" y="15.5" width="90" height="32.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OfO5TF3sxZFxJK7zBCTe-106" value="接口耗时" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
+          <mxGeometry x="70" y="77.5" width="90" height="32.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OfO5TF3sxZFxJK7zBCTe-107" value="接口状态码统计" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
+          <mxGeometry x="70" y="135.5" width="90" height="32.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OfO5TF3sxZFxJK7zBCTe-109" value="业务抛异常统计" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
+          <mxGeometry x="70" y="195.5" width="90" height="32.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OfO5TF3sxZFxJK7zBCTe-110" value="CPU,内存，磁盘等" style="whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
+          <mxGeometry x="70" y="305.5" width="90" height="32.25" as="geometry" />
+        </mxCell>
+        <mxCell id="OfO5TF3sxZFxJK7zBCTe-112" value="慢SQL" style="whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-29">
+          <mxGeometry x="70" y="255.5" width="90" height="32.25" as="geometry" />
         </mxCell>
         <mxCell id="OfO5TF3sxZFxJK7zBCTe-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OfO5TF3sxZFxJK7zBCTe-30" target="OfO5TF3sxZFxJK7zBCTe-71">
           <mxGeometry relative="1" as="geometry" />
@@ -177,13 +195,13 @@
           <mxGeometry x="30" y="29" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="OfO5TF3sxZFxJK7zBCTe-80" value="数据缓存" style="whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-76">
-          <mxGeometry x="140" y="30" width="90" height="31" as="geometry" />
+          <mxGeometry x="360" y="29" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="OfO5TF3sxZFxJK7zBCTe-81" value="事务" style="whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-76">
-          <mxGeometry x="250" y="29" width="90" height="31" as="geometry" />
+          <mxGeometry x="140" y="29" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="OfO5TF3sxZFxJK7zBCTe-94" value="多数据源" style="whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="OfO5TF3sxZFxJK7zBCTe-76">
-          <mxGeometry x="360" y="29" width="90" height="31" as="geometry" />
+          <mxGeometry x="250" y="29" width="90" height="31" as="geometry" />
         </mxCell>
         <mxCell id="OfO5TF3sxZFxJK7zBCTe-78" value="统一使用mybatis框架操作数据库，自定义sql使用xml形式" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="1180" width="120" height="80" as="geometry" />

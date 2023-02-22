@@ -1,1 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2023-02-22T06:52:27.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.6.0" etag="AzJ47S-nVoxvlIjG51RJ" type="github"><diagram id="SlNEyx_dmpbTuSd1RJL3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-22T07:12:44.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.6.0" etag="bfGz8sg6QFW76T_rJVA6" type="github">
+  <diagram id="JfYCgoOGVKIxVz9SwOrB" name="第 1 页">
+    <mxGraphModel dx="893" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YLJKAPUCcBRLomqs5bSp-2" target="YLJKAPUCcBRLomqs5bSp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-4" value="权限平台" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="430" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-1" value="&lt;span style=&quot;color: rgb(6, 125, 23); background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;uap-sso-server/sso/login&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-4">
+          <mxGeometry x="100" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-19" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;&lt;span style=&quot;color:#067d17;&quot;&gt;/uap-authority/user/getUserDtoByToken&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-4">
+          <mxGeometry x="60" y="200" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-5" value="DSP" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="200" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-8" value="登录接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-5">
+          <mxGeometry x="50" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-15" value="获取用户信息接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-5">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLJKAPUCcBRLomqs5bSp-5" source="YLJKAPUCcBRLomqs5bSp-20" target="YLJKAPUCcBRLomqs5bSp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-20" value="封装用户信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-5">
+          <mxGeometry x="50" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLJKAPUCcBRLomqs5bSp-5" source="YLJKAPUCcBRLomqs5bSp-23" target="YLJKAPUCcBRLomqs5bSp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-23" value="将用户信息放入缓存设置生效时间" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-5">
+          <mxGeometry x="50" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YLJKAPUCcBRLomqs5bSp-5" source="YLJKAPUCcBRLomqs5bSp-27" target="YLJKAPUCcBRLomqs5bSp-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-27" value="校验手机验证码（根据配置可选）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-5">
+          <mxGeometry x="50" y="515" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-29" value="插入/更新 dsp_user表" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="YLJKAPUCcBRLomqs5bSp-5">
+          <mxGeometry x="50" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YLJKAPUCcBRLomqs5bSp-8" target="YLJKAPUCcBRLomqs5bSp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YLJKAPUCcBRLomqs5bSp-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="220" />
+              <mxPoint x="190" y="220" />
+              <mxPoint x="190" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-18" value="返回token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YLJKAPUCcBRLomqs5bSp-12">
+          <mxGeometry x="-0.2279" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YLJKAPUCcBRLomqs5bSp-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YLJKAPUCcBRLomqs5bSp-19" target="YLJKAPUCcBRLomqs5bSp-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="360" />
+              <mxPoint x="180" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLJKAPUCcBRLomqs5bSp-22" value="返回用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YLJKAPUCcBRLomqs5bSp-21">
+          <mxGeometry x="0.1368" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

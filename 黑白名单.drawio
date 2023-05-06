@@ -1,9 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T06:45:33.734Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="UPaAn2BfMQv_Sxr9F7iK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T07:25:50.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="TMK28trkGhYaUVLfI9Xm" version="21.2.9" type="github">
   <diagram name="第 1 页" id="kED2x69gUIQwH9Or3W26">
-    <mxGraphModel>
+    <mxGraphModel dx="897" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-1" target="T6kjLGK_uc8Ib6e-8Ajm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-1" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-2" target="T6kjLGK_uc8Ib6e-8Ajm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-6" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6kjLGK_uc8Ib6e-8Ajm-5">
+          <mxGeometry x="-0.1294" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-8" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-2" target="T6kjLGK_uc8Ib6e-8Ajm-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-2" value="校验计划id是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="230" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-4" value="返回不存在信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="245" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-7" target="T6kjLGK_uc8Ib6e-8Ajm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-16" value="存在手机号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6kjLGK_uc8Ib6e-8Ajm-14">
+          <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-7" value="遍历设备列表，获取手机号列表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-10" target="T6kjLGK_uc8Ib6e-8Ajm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-10" value="根据设备列表是否存在逗号，进去切分" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-13" target="T6kjLGK_uc8Ib6e-8Ajm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-13" value="调用用户平台接口获取手机号对应的UID,作为投放的设备号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-17" target="T6kjLGK_uc8Ib6e-8Ajm-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6kjLGK_uc8Ib6e-8Ajm-20">
+          <mxGeometry x="-0.1167" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-17" target="T6kjLGK_uc8Ib6e-8Ajm-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T6kjLGK_uc8Ib6e-8Ajm-23">
+          <mxGeometry x="-0.2222" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-17" value="UID是否存在" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-19" value="抛出手机号无效异常" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T6kjLGK_uc8Ib6e-8Ajm-22" target="T6kjLGK_uc8Ib6e-8Ajm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-22" value="删除表里面页面提交的不存在的设备号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T6kjLGK_uc8Ib6e-8Ajm-25" value="插入/更新其他设备号" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

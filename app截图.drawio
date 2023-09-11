@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T03:34:53.682Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="6a-Sw1jHHy7Zw2sX3FhD" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T03:35:00.898Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="7_ETGemHaUJZ4YCARfrQ" version="21.7.2" type="github">
   <diagram name="第 1 页" id="TrwsholyzrnR3m-dR5as">
     <mxGraphModel dx="2623" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,9 +290,6 @@
         </mxCell>
         <mxCell id="zyPBT3nkPfOlx9yblsIw-100" value="将文件上传至COS" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="628.75" y="1850" width="187.5" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="zyPBT3nkPfOlx9yblsIw-103" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="860" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="zyPBT3nkPfOlx9yblsIw-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zyPBT3nkPfOlx9yblsIw-104" target="zyPBT3nkPfOlx9yblsIw-106">
           <mxGeometry relative="1" as="geometry" />
